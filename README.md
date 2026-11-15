@@ -4,7 +4,7 @@
 
 采用 Next.js / React 静态前端、Node.js 24 后端和 SQLite。AI 请求由服务端调用 DeepSeek 官方 API，密钥不会发送到浏览器。
 
-在线体验：[https://ssbyielt.xyz](https://ssbyielt.xyz) · 另一独立项目：[译洋 · 四六级写作与翻译](https://github.com/shhsh993838383-hub/yiyang-cet-writing-studio)
+在线体验：[https://ssbyielt.xyz](https://ssbyielt.xyz) · 另一独立项目：[译洋 · 四六级写作与翻译](https://github.com/masic123/yiyang-cet-writing-studio)
 
 ## 功能
 
@@ -20,7 +20,7 @@
 需要 Node.js **24 或更新版本**，SQLite 使用 Node 内置模块。
 
 ```sh
-git clone https://github.com/shhsh993838383-hub/ssby-ielts-writing-studio.git
+git clone https://github.com/masic123/ssby-ielts-writing-studio.git
 cd ssby-ielts-writing-studio
 npm ci
 cp .dev.vars.example .dev.vars
