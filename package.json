@@ -1,0 +1,56 @@
+{
+  "name": "simon-writing-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --ip 127.0.0.1 --port 3000",
+    "dev:ui": "next dev --hostname 127.0.0.1 --port 3001",
+    "build": "next build",
+    "build:vps": "node scripts/build-vps.mjs",
+    "start:vps": "node --env-file-if-exists=.dev.vars storage/vps-release/server.mjs",
+    "start": "node --env-file-if-exists=.dev.vars storage/vps-release/server.mjs",
+    "import:content": "node scripts/import-content.mjs",
+    "import:scoring-samples": "node scripts/import-scoring-samples.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "configure:api": "node scripts/configure-deepseek.mjs",
+    "dev:node": "node --env-file-if-exists=.dev.vars --import tsx server/start.ts",
+    "setup:content": "node scripts/setup-content.mjs",
+    "prebuild": "node scripts/setup-content.mjs",
+    "prebuild:vps": "node scripts/setup-content.mjs",
+    "pretypecheck": "node scripts/setup-content.mjs",
+    "pretest": "node scripts/setup-content.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.2.8",
+    "@phosphor-icons/react": "^2.1.10",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-select": "^2.4.1",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261027.1",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "^0.28.2",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.153.0"
+  },
+  "license": "MIT",
+  "description": "莎试笔雅 · 雅思写作练习室",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shhsh993838383-hub/ssby-ielts-writing-studio.git"
+  },
+  "homepage": "https://github.com/shhsh993838383-hub/ssby-ielts-writing-studio#readme"
+}

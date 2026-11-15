@@ -1,0 +1,191 @@
+[
+  {
+    "id": "tn-argument-chain", "task": "Task 2", "criteria": ["taskResponse", "coherence"],
+    "title": "每个论点都要有后续解释", "summary": "单点深入或多点展开都可以，关键是论据支撑观点。",
+    "detail": "检查中心观点之后是否解释了原因、过程或后果，并用相关例子或细节支持。多点展开时，每个分论点也应有解释。不能仅凭论点数量判断好坏，也不必虚构调查或统计。",
+    "condition": "适用于 Task 2 主体段；不要求固定数量的分论点。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L2作业+笔记.pdf","section":"L2 · 单点与多点展开","page":76,"pages":[76,77],"chunkId":"tian-nan-L2-p76","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-concession", "task": "Task 2", "criteria": ["taskResponse", "coherence"],
+    "title": "让步时分清他人观点和自己的答案", "summary": "承认另一面的合理性，再说明自己最终如何取舍。",
+    "detail": "作者选择让步写法时，检查读者能否分清被承认的观点与作者立场，结尾是否回应题目。让步是可选论证方式；不要求写成某种段落顺序，也不按课堂示意的 60% 或固定表达评价立场。",
+    "condition": "仅在作者采用让步论证时检查；未使用让步不构成缺陷。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L2作业+笔记.pdf","section":"L2 · 让步段","page":85,"pages":[85,86],"chunkId":"tian-nan-L2-p85","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-rebuttal", "task": "Task 2", "criteria": ["taskResponse", "coherence"],
+    "title": "反驳要回答对方的理由", "summary": "转折词之后，需要真正的回应。",
+    "detail": "作者提出反方论点后，可用相关反例、限制条件或能解决该问题的办法作出回应。检查反驳是否针对原来的理由，而非只重复自己的立场。不要按所谓 80% 倾向套用结构，也不要求每篇都写反驳段。",
+    "condition": "仅在作者选择反驳时使用。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L2作业+笔记.pdf","section":"L2 · 驳论段","page":92,"pages":[92,93],"chunkId":"tian-nan-L2-p92","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-connectors", "task": "Task 2", "criteria": ["coherence"],
+    "title": "先有逻辑关系，再选连接词", "summary": "because、however、therefore 要与上下文的关系一致。",
+    "detail": "指出具体哪两句之间的因果、转折或递进关系不成立，并先修正内容关系。衔接词多并不等于连贯；重复或放在句首本身也不是错误，不必为变化强行移动位置。",
+    "condition": "依据实际句意判断，不按衔接词数量或位置扣分。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L2作业+笔记.pdf","section":"L2 · 逻辑衔接词","page":95,"pages":[95,97],"chunkId":"tian-nan-L2-p95","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-reference", "task": "all", "criteria": ["coherence"],
+    "title": "让 this、they、those 指向明确", "summary": "指代和替代能减少重复，前提是读者知道它们指什么。",
+    "detail": "回查代词的先行对象、单复数和语义范围；有歧义时补回明确名词。用同义词或上下义词替代时要保留含义。必要的主题词重复可以保留，不为避免重复引入歧义。",
+    "condition": "适用于 Task 2 与 A 类 Task 1 的指代、替代。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L2作业+笔记.pdf","section":"L2 · 指代与替代","page":100,"pages":[100,101,102],"chunkId":"tian-nan-L2-p100","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-topic-vocabulary", "task": "Task 2", "criteria": ["lexical"],
+    "title": "用熟悉的话题词把观点讲具体", "summary": "会拼写，也知道词在当前语境中怎样使用。",
+    "detail": "检查词汇是否能准确表达本文涉及的对象、行为和关系。优先修正含义模糊或误用的词，再建议适合这个话题的表达；不因词普通就判低分，不把背诵话题词数量当评分项。",
+    "condition": "结合本篇题目与作者本意提供少量可用表达。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L3笔记.pdf","section":"L3 · 话题词汇","page":15,"pages":[15],"chunkId":"tian-nan-L3-p15","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-less-common", "task": "all", "criteria": ["lexical"],
+    "title": "不常见表达也要准确、自然", "summary": "掌握含义和语境，胜过硬塞生僻词或习语。",
+    "detail": "检查不常见词及习惯表达的含义、搭配和语体是否贴切。C1/C2 标签不是雅思写作的词汇配额，idiomatic 也不等于必须写谚语。没有某个高级词或习语，不应单独扣分。",
+    "condition": "只评价实际使用效果，不推荐为凑高级词而改写。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L3笔记.pdf","section":"L3 · 不常见词汇与习语","page":21,"pages":[21,27],"chunkId":"tian-nan-L3-p21","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-collocations", "task": "all", "criteria": ["lexical"],
+    "title": "把词放进自然的搭配中", "summary": "连同动词、名词和介词一起检查表达。",
+    "detail": "检查动名搭配、形名搭配及介词是否符合当前意思。修改时保留原意，说明哪组词不自然及原因；同义词不一定能直接互换。把搭配建议与真正的语法错误分开。",
+    "condition": "仅针对作文里可定位的搭配提供修改。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L3笔记.pdf","section":"L3 · 搭配","page":32,"pages":[32],"chunkId":"tian-nan-L3-p32","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-register", "task": "all", "criteria": ["lexical"],
+    "title": "保持适合题目的语体", "summary": "避免突兀的俚语，保留清楚自然的中性表达。",
+    "detail": "结合 A 类图表描述或 Task 2 的论述语境检查语体。需要时把聊天缩略语或明显俚语改为常用书面语，但 use、children 等普通词完全可以保留。正式化建议不是语法纠错，被动语态和长句也不自动更正式或更好。",
+    "condition": "适用于 A 类 Task 1 与 Task 2，不将此规则套用于 G 类私人书信。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L3笔记.pdf","section":"L3 · 语体与正式程度","page":37,"pages":[37,41],"chunkId":"tian-nan-L3-p37","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-sentence-range", "task": "all", "criteria": ["grammar"],
+    "title": "让句式服务于意思", "summary": "用适当的句子表达原因、条件、例子和补充信息。",
+    "detail": "评价简单句、并列句及从句是否有效、准确地传递信息。只有句子过长造成理解困难时才建议拆分；需要交代关系时再建议合并。倒装、强调句或某个特定从句都不是必备句型，也不按长句比例打分。",
+    "condition": "结合表达需要评价句式变化与控制，不按固定句型清单打分。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L4笔记.pdf","section":"L4 · 句式与表达清晰","page":24,"pages":[24,27],"chunkId":"tian-nan-L4-p24","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-participles", "task": "all", "criteria": ["grammar"],
+    "title": "分词结构要有明确的逻辑主语", "summary": "缩短句子后，仍要知道是谁做了这个动作。",
+    "detail": "检查修饰对象、主动被动关系和动作先后。尤其核对句首 after/before doing 的隐含主语是否与主句主语一致；必要时保留完整从句。分词不总是修饰最近的词，也不是所有 -ing 形式都属于同一种语法功能。",
+    "condition": "仅在作文已经使用分词或确有合并需要时检查，不要求必须使用。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L4笔记.pdf","section":"L4 · 分词结构","page":29,"pages":[29,30,31,32],"chunkId":"tian-nan-L4-p29","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-inversion", "task": "all", "criteria": ["grammar"],
+    "title": "倒装只在合适的语境中使用", "summary": "已经用了倒装，就核对结构和强调对象。",
+    "detail": "检查否定或限制性状语引起的倒装等是否符合语法，意思是否清楚。普通语序准确自然时可以保留。未使用倒装应记为本项不适用，不能因此判为缺少复杂语法。",
+    "condition": "仅适用于作文中已经出现的倒装句。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L4笔记.pdf","section":"L4 · 倒装注意事项","page":39,"pages":[39],"chunkId":"tian-nan-L4-p39","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-proofread", "task": "all", "criteria": ["grammar"],
+    "title": "先修正反复出现的基础错误", "summary": "主谓、时态、冠词和句子边界值得逐句回查。",
+    "detail": "优先找出反复影响准确性的错误，解释其规则，再给出对应的完整改句。关注从句结构、非谓语、介词及标点，不按单个错误数量机械换算分数。正确句子无需为展示修改而重写。",
+    "condition": "依据完整原句判断，不脱离语境照搬课堂改错答案。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L4笔记.pdf","section":"L4 · 常见错误自查","page":49,"pages":[49],"chunkId":"tian-nan-L4-p49","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-chart-read", "task": "Task 1", "scope": "chart", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "先核对对象、单位与时间", "summary": "图表的标题、图例和坐标决定你在描述什么。",
+    "detail": "结合真实题图核对对象、单位、时间范围和预测信息。先判断有无时间变化，再选择时态。饼图、表格和柱状图也可能呈现动态数据，不能只凭图形名称判断。",
+    "condition": "仅在能读取真实题图时核验，不根据作文反推题图。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L5笔记.pdf","section":"L5 · 审题读图","page":15,"pages":[15],"chunkId":"tian-nan-L5-p15","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-chart-group", "task": "Task 1", "scope": "chart", "criteria": ["coherence"], "requiresVisual": true,
+    "title": "把有可比关系的数据放在一起", "summary": "按趋势、幅度、时间或关联分组，让比较更清楚。",
+    "detail": "动态图可按相似趋势、变化幅度或时间分组；静态图可按大小或功能关联分组。评价分组是否便于读者比较，而不是强制两段或某一种顺序。",
+    "condition": "只在题图支持这些关系时提出分组建议。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L5笔记.pdf","section":"L5 · 动静态图分组","page":19,"pages":[19,32],"chunkId":"tian-nan-L5-p19","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-dynamic-features", "task": "Task 1", "scope": "chart", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "动态图：趋势配合有代表性的数据", "summary": "看变化方向、幅度，以及关键时间点。",
+    "detail": "仅在图表存在时间变化时，检查主要趋势是否有准确数据支持。起终点、转折、交点和极值是筛选线索，按重要性取舍，不要求每条曲线的五类点都写，也不把遗漏任一点机械判为扣分。",
+    "condition": "仅适用于存在时间变化的图表；静态图记为不适用。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L5笔记.pdf","section":"L5 · 动态图主要特征","page":28,"pages":[28],"chunkId":"tian-nan-L5-p28","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-static-comparisons", "task": "Task 1", "scope": "chart", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "静态图：突出差异和相似关系", "summary": "选择显著大小关系，避免逐项报数。",
+    "detail": "仅在没有时间变化的图表中，挑选最大最小、接近值、明显差距或有意义的比例比较。核对比较对象和单位是否一致；倍数或比例只在题图能够支持且有用时使用，不套用固定数量的比较。",
+    "condition": "仅适用于静态比较；不能凭空写上升、下降。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L5笔记.pdf","section":"L5 · 静态图主要特征","page":39,"pages":[39],"chunkId":"tian-nan-L5-p39","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-objective-description", "task": "Task 1", "scope": "chart", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "描述图中信息，不补写猜测的原因", "summary": "把可见事实和个人解释分开。",
+    "detail": "核对作文是否加入题图未提供的原因、评价或预测。图中已有预测时可以客观报告，不能把所有将来信息都视为主观推测。所有修改数据都必须能从原图核实。",
+    "condition": "适用于图表客观报告；缺图时无法确认新增信息是否有依据。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L5笔记.pdf","section":"L5 · 客观报告任务要求","page":15,"pages":[15,43],"chunkId":"tian-nan-L5-p15-objective","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-chart-overview", "task": "Task 1", "scope": "chart", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "概述用一句到几句话交代大局", "summary": "动态看主要变化，静态看显著差异与共性。",
+    "detail": "检查概述是否选中了全图主要趋势或差异，而非只列零散细节。概述可以在开头之后或结尾，少写细节数字是练习建议；出现数字、没有 Overall 或未独立成段，都不能单独作为扣分理由。",
+    "condition": "需结合题图判断主要特征，不规定概述句数。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L5笔记.pdf","section":"L5 · 概述","page":43,"pages":[43,44],"chunkId":"tian-nan-L5-p43","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-trend-forms", "task": "Task 1", "scope": "chart", "criteria": ["lexical", "grammar"],
+    "title": "趋势词核对词性与变化幅度", "summary": "a sharp rise 与 rose sharply 的结构不同。",
+    "detail": "在确有趋势时，检查动词配副词、名词配形容词，以及时态、介词和搭配。soar 或 plummet 的含义需要图中幅度支持，不为增加词汇难度强行替换；没有题图时只纠正可确定的语言问题。",
+    "condition": "仅在作者描述时间变化时检查词性；幅度真实性需题图支持。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 趋势表达","page":24,"pages":[24],"chunkId":"tian-nan-L6-p24","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-sentence-boundaries", "task": "all", "criteria": ["grammar"],
+    "title": "标点要跟着句子结构走", "summary": "检查逗号拼接、句子残缺和从句边界。",
+    "detail": "两个独立分句不能仅靠一个逗号连接，可按语义使用句号、分号或适当连词。从句与主句是否加逗号要看具体结构与位置；with/at 前也不总是加逗号。不能把这些课堂简写变成一律适用的规则。",
+    "condition": "必须看完整原句，再解释具体标点问题。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 标点与准确性","page":33,"pages":[33],"chunkId":"tian-nan-L6-p33","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-map-group", "task": "Task 1", "scope": "map", "criteria": ["coherence", "grammar"], "requiresVisual": true,
+    "title": "地图按位置或功能组织前后对照", "summary": "写清变化对象、方位和时间，避免读者来回找位置。",
+    "detail": "按区域、功能、时间或变化程度组织均可，只要便于理解和比较。核对方位、设施名、主动被动及规划时态；disappear 不需要强行改成被动。只按实际图示描述，不推断设施用途。",
+    "condition": "适用于地图；静态选址图不强求写前后变化。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 地图组织与表达","page":38,"pages":[38],"chunkId":"tian-nan-L6-p38","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-map-overview", "task": "Task 1", "scope": "map", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "地图概述抓住整体布局与主要变化", "summary": "先看全局，再选最重要的变化或保留。",
+    "detail": "比较图可总结显著的扩建、用途或布局变化，并在重要时提及保留部分。单一静态地图应概括空间特征。不能看到新增建筑就一律写 modernisation，也不要求固定的概述套句。",
+    "condition": "只总结题图明确支持的整体特征。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 地图概述","page":42,"pages":[42],"chunkId":"tian-nan-L6-p42","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-process-stages", "task": "Task 1", "scope": "process", "criteria": ["coherence"], "requiresVisual": true,
+    "title": "流程按阶段归组，保留真实顺序", "summary": "把相关步骤组成阶段，复杂流程更容易读懂。",
+    "detail": "可按原料准备、加工和成品等实际阶段组织，也可按图示分组。核对是否遗漏关键环节、分支或循环；简单流程不强求两个主体段，更不能为分段打乱顺序。",
+    "condition": "以题图实际过程为准，不预设所有流程都是线性的。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 流程分组","page":45,"pages":[45],"chunkId":"tian-nan-L6-p45","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-process-voice", "task": "Task 1", "scope": "process", "criteria": ["grammar"],
+    "title": "描述工序时选对主语和语态", "summary": "原料接受处理时常用被动，主动表达也可以准确。",
+    "detail": "检查 be 与过去分词、单复数以及动作主语。人工加工常以材料作主语使用被动，自然过程或描述机器工作时可以用主动；不要求每一步都使用被动语态。",
+    "condition": "结合原句语义检查；不从语言结构推测未知工序。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 工序语态","page":50,"pages":[50],"chunkId":"tian-nan-L6-p50","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-process-sequence", "task": "Task 1", "scope": "process", "criteria": ["coherence", "grammar"],
+    "title": "步骤之间既要有顺序，也要有正确的主语", "summary": "then、once、after 的连接不能改变谁在经历处理。",
+    "detail": "顺序表达与实际步骤一致时，可用阶段名、代词或时间从句减少机械编号。使用 after/before doing 时核对隐含主语；对象改变后优先使用完整从句，不能把上一步原料的动作错误安到下一步产物上。",
+    "condition": "语言关系可据原句检查；实际步骤顺序仍需题图核验。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 流程衔接","page":53,"pages":[51,52,53],"chunkId":"tian-nan-L6-p53","verification":"pdf_text_checked"}
+  },
+  {
+    "id": "tn-process-overview", "task": "Task 1", "scope": "process", "criteria": ["taskResponse"], "requiresVisual": true,
+    "title": "流程概述交代起终点与整体阶段", "summary": "让读者先知道整个过程在完成什么。",
+    "detail": "按图概括过程的开始与结束、主要阶段，或线性与循环特点。设备、人力与步骤数量仅在有图示依据且重要时提及；不能为套句虚构机器数量，也不必对所有流程硬数步骤。",
+    "condition": "需读取题图；不要把课堂某一生产流程的特点套到自然循环。",
+    "source": {"provider":"tian-nan","title":"新东方课堂笔记","file":"读写L6笔记.pdf","section":"L6 · 流程概述","page":55,"pages":[55],"chunkId":"tian-nan-L6-p55","verification":"pdf_text_checked"}
+  }
+]

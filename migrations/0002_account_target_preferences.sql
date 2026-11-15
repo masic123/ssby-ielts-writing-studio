@@ -1,0 +1,1 @@
+CREATE TABLE account_target_preferences(user_id TEXT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,target REAL NOT NULL CHECK(target BETWEEN 4 AND 9 AND target*2=CAST(target*2 AS INTEGER)),version INTEGER NOT NULL DEFAULT 1 CHECK(version>=1),updated_at TEXT NOT NULL);

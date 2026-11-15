@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "masic-writing-studio",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-27",
+  "compatibility_flags": ["nodejs_compat"],
+  // Local development only. The public old address uses wrangler.legacy.jsonc.
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"],
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "STORE", "class_name": "WritingStore" }],
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["WritingStore"] }],
+  "vars": {
+    "FREE_ACCESS_ENABLED": "true",
+    "DEEPSEEK_MODEL": "deepseek-flash",
+    "DEEPSEEK_BASE_URL": "https://api.deepseek.com",
+    "DEEPSEEK_VISION": "true",
+    "DAILY_REVIEW_LIMIT": "15",
+    "MEMBERSHIP_LAUNCH_DEFERRED": "false",
+    "MEMBERSHIP_LAUNCH_AT": "2026-11-02T00:00:00+08:00",
+  },
+  "observability": { "enabled": false },
+}
